@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  warehouse_db:
+    build: .
+    container_name: xyz_data_warehouse
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_DB=xyz_warehouse
+      - POSTGRES_USER=dw_user
+      - POSTGRES_PASSWORD=dw_password
+    volumes:
+      - warehouse_data:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dw_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  warehouse_data:

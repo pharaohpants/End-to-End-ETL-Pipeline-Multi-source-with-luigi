@@ -1,0 +1,57 @@
+# Environment
+.env
+*.env
+!.env.example
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Data (raw & cleaned - output runtime)
+Data Source/raw/
+Data Source/cleaned/
+Data Source/raw_SalesData.csv
+Data Source/*.csv
+!Data Source/ElectronicsProductsPricingData.csv
+
+# Database
+DB Warehouse/
+*.db
+*.sqlite
+
+# Empty folders
+init-db.sql/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Luigi
+luigi-tmp-*/
+*.lock
+
+# Jupyter
+.ipynb_checkpoints/

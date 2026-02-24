@@ -1,0 +1,30 @@
+Sebagai Data Engineer yang baik anda harus bisa membuat ETL (Extract, Transform, Load) Data Pipeline, karena itu merupakan salah satu task utama jika menjadi Data Engineer. Pada project kali ini, anda akan membuat ETL Pipeline tetapi tidak dari satu source saja, akan ada beberapa source data. Anda tidak hanya membuat ETL Pipeline saja, tetapi harus membuat prosesnya secara end-to-end.
+
+Anda telah menjadi Data Engineer di Perusahaan XYZ, perusahaan masih terhitung baru dan masih belum memiliki infrastruktur data yang robust. Oleh karena itu, anda akan membuatkan ETL Pipeline dan anda akan membuatkan satu database yang digunakan untuk menyimpan seluruh data yang sudah melewati proses ETL. Ada beberapa data source yang dimiliki oleh perusahaan XYZ, oleh karena itu anda melakukan diskusi ke masing - masing Stakeholder untuk melakukan proses Requirements Gathering.
+
+Ternyata, setelah berdiskusi dengan masing - masing Stakeholder anda menemukan temuan:
+Tim Sales sudah memiliki data penjualan barang di Database PostgreSQL. Tetapi masih banyak data yang missing dan format data tidak benar
+Tim Product juga sudah memiliki data tentang Electronic Product Pricing dalam bentuk .csv tetapi bentuk data masih berantakan dan banyak missing values
+Tim Data Scientist ingin melakukan research mengenai pemodel NLP (Natural Language Processing), tetapi masih belum memiliki data sama sekali. Akhirnya meminta bantuan ke Tim Data Engineer untuk melakukan proses Web Scraping dari sebuah website.
+
+Ada beberapa hal yang harus dikerjakan dalam Final Project ini.
+Requirements Gathering & Proposed Solution
+Anda akan diminta untuk memahami problem apa yang diberikan oleh Stakeholder, setelah itu anda akan diminta untuk memberikan solusi berdasarkan problem tersebut.
+
+Designing ETL Pipeline
+Berdasarkan hasil Requirements Gathering & Proposed Solution, anda akan diminta untuk membuat ETL Design Pipeline secara overview tidak perlu detail.
+
+ETL Implementation
+Anda akan membuat ETL Pipeline dengan menggunakan Luigi berdasarkan design ETL yang sudah dibuat pada proses sebelumnya.
+
+ETL Scheduling
+Agar ETL Pipeline bisa berjalan sesuai dengan jadwal, anda diminta untuk membuat Scheduling untuk menjalankan Pipeline yang sudah dibuat menggunakan Crontab.
+
+Testing Scenario
+Agar Pipeline yang dibuat lebih robust, maka akan diberikan sebuah testing scenario untuk memastikan apakah Pipeline bisa berjalan sesuai dengan skenario yang diberikan.
+
+Documentation
+Data Engineer yang baik adalah yang bisa membuat summary atau dokumentasi mengenai Pipeline yang telah dibuat, mulai dari apa solusi yang diberikan, arsitektur atau bagaimana design pipeline yang dibuat, bagaimana cara menjalankan pipeline, dsb.
+
+
+Project ini memberikan kesempatan kepada Anda untuk mengaplikasikan pengetahuan dan keterampilan yang telah Anda pelajari pada course Intro to Data Engineer. Anda juga bisa memperdalam pemahaman tentang membuat ETL Pipeline, melakukan ETL Scheduling, dan membuat Design ETL Pipeline.
