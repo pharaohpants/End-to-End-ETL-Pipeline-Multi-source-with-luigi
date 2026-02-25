@@ -41,6 +41,8 @@ Untuk mengatasi permasalahan data Perusahaan XYZ, solusi yang dibangun adalah **
 - **UPSERT** (INSERT ON CONFLICT UPDATE) → tidak ada duplikasi di Data Warehouse
 
 ---
+# Rancangan Desain ETL Pipeline 
+<img width="2487" height="954" alt="image" src="https://github.com/user-attachments/assets/f3f2f11d-a194-4304-b819-fd7410c8b644" />
 
 ## ⚙️ Cara Kerja ETL Pipeline
 
