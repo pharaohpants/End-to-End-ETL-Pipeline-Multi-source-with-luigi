@@ -16,10 +16,9 @@ Beberapa permasalahan utama yang diidentifikasi:
 Kondisi ini menghambat proses analisis, pelaporan, dan pengembangan model data science.
 
 # Requirement Gathering & Solution
-Data source : 
-Sales Datahttps://hub.docker.com/r/shandytp/amazon-sales-data-docker-db 
-Product Data : https://drive.google.com/file/d/1J0Mv0TVPWv2L-So0g59GUiQJBhExPYl6/view?usp=sharing
-Web scraping : disini saya melakukan scraping artikel berita detik.com dengan tag AI 
+1. Data source : Sales Datahttps://hub.docker.com/r/shandytp/amazon-sales-data-docker-db 
+2. Product Data : https://drive.google.com/file/d/1J0Mv0TVPWv2L-So0g59GUiQJBhExPYl6/view?usp=sharing
+3. Web scraping : disini saya melakukan scraping artikel berita detik.com dengan tag AI 
 
 ---
 
