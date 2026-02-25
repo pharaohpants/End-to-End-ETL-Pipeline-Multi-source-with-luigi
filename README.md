@@ -1,8 +1,25 @@
-# ETL Pipeline - Perusahaan XYZ
+# ETL Pipeline Multi Source
 
 End-to-end ETL (Extract, Transform, Load) data pipeline menggunakan **Luigi** untuk Perusahaan XYZ. Pipeline ini mengumpulkan data dari 3 sumber berbeda, membersihkannya, dan memuatnya ke Data Warehouse PostgreSQL.
 
----
+# Problem Statement
+Perusahaan XYZ merupakan perusahaan rintisan yang belum memiliki infrastruktur data yang terintegrasi dan terstandarisasi. Data tersebar di berbagai tim dengan format, struktur, dan kualitas yang berbeda-beda.
+
+Beberapa permasalahan utama yang diidentifikasi:
+
+1. Tidak adanya database terpusat untuk menyimpan data yang telah diproses.
+2. Kualitas data yang rendah (missing values, inkonsistensi format).
+3. Struktur data yang tidak seragam antar sumber.
+4. Kebutuhan data baru untuk keperluan riset NLP yang belum tersedia.
+5. Belum adanya automated ETL pipeline untuk memastikan data terproses secara konsisten.
+
+Kondisi ini menghambat proses analisis, pelaporan, dan pengembangan model data science.
+
+# Requirement Gathering & Solution
+Data source : 
+Sales Datahttps://hub.docker.com/r/shandytp/amazon-sales-data-docker-db 
+Product Data : https://drive.google.com/file/d/1J0Mv0TVPWv2L-So0g59GUiQJBhExPYl6/view?usp=sharing
+Web scraping : disini saya melakukan scraping artikel berita detik.com dengan tag AI 
 
 ## 📊 Architecture Overview
 
