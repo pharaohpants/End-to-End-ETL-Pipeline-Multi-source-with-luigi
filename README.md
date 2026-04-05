@@ -1226,7 +1226,7 @@ Data testing berhasil jika record **muncul di Data Warehouse** setelah pipeline 
 
 ---
 
-## 📝 Logs
+## 📝 Log
 
 Pipeline log disimpan di folder `logs/`:
 
